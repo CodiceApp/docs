@@ -42,7 +42,6 @@ that any contribution regarding the code should follow them as well.
 
 * [PSR 4 Autoloading Standard](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader.md)
 * [PSR 2 Coding Style Guide](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md)
-* [PSR 1 Coding Style Guide](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md)
 
 Keep in mind that (for server-side changes) running test suite using `phpunit` command is a must.
 

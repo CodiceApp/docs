@@ -41,7 +41,7 @@ class Plugin extends PluginBase
 {
 	public function boot()
 	{
-		Action::register('note.create', 'docs_sample_plugin_log_note_creation' function ($parameters) {
+		Action::register('note.create', 'docs_sample_plugin_log_note_creation', function ($parameters) {
 			if ($parameters['newStatus'] === 1) {
 				$string = 'done';
 			} else {
