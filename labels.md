@@ -2,7 +2,7 @@
 
 Labels are Codice's way to categorize notes. They are no different from tags that you may
 know from other applications. Each note can have multiple tags and that's about all we can
-say about labels. Oh, and you can assign colours to your labels so everything becomes clear
+say about labels. Oh, and you can assign colors to your labels so everything becomes clear
 at the quick glance when you look at the notes.
 
 ### Label view

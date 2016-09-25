@@ -9,8 +9,8 @@
 - MySQL with InnoDB support
 
 ### Pre-packaged version
-It is recommended method, which doesn't require any advanced skills. Whole configuration
-is done using a web installer shipped with Codice.
+It is the recommended method, which doesn't require any advanced skills. Whole
+configuration is done using a web installer shipped with Codice.
 
 1. Download [pre-packaged release](https://github.com/Sobak/Codice/releases)
 2. Unpack files into desired location

@@ -47,7 +47,7 @@ Keep in mind that (for server-side changes) running test suite using `phpunit` c
 
 ### Contributing documentation
 #### Determining version to edit
-Rules are very similiar to contributing to Codice core - any change meant for all actively
+Rules are very similar to contributing to Codice core - any change meant for all actively
 supported versions should go into `master` branch and fixes for a specific branch should
 target this version's branch (e.g. `v.0.4`).
 

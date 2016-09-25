@@ -1,10 +1,10 @@
 # The basics
 
-When you log in to the Codice for the first time, you should see a screen very similiar to this:
+When you log in to the Codice for the first time, you should see a screen very similar to this:
 
 ![Main screen](assets/images/main-screen.png)
 
-We'll shortly describe each part it composes of the GUI.
+We'll shortly describe each part of the GUI.
 
 ### Navigation
 ![Navigation](assets/images/navbar.png)
@@ -40,7 +40,7 @@ Note can be marked as done even if doesn't have specified time of expiration.
 
 ![Note status indicator](assets/images/status-indicator.png)
 
-This little coloured bar is a *status indicator* for a given note. Each color means what follows:
+This little colored bar is a *status indicator* for a given note. Each color means what follows:
 - **green** - note (task) is done
 - **blue** - task is pending
 - **orange** - task is pending *but* less than 24 hours left
@@ -50,7 +50,7 @@ This little coloured bar is a *status indicator* for a given note. Each color me
 ![Note labels](assets/images/labels-area.png)
 
 Top right corner of the note is a place where all labels assigned to it are shown. When creating
-a label, you can set a colour for it, so it's even easier to recognize different labels with just
+a label, you can set a color for it, so it's even easier to recognize different labels with just
 a quick glance.
 
 ![Note footer](assets/images/note-footer.png)

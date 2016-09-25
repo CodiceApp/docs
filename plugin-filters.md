@@ -61,7 +61,7 @@ class Plugin extends PluginBase
 }
 ```
 
-Registering filters is very similiar to registering actions. The only difference is that
+Registering filters is very similar to registering actions. The only difference is that
 first parameter to your callable will always be a value you can modify.
 
 ### Public API reference

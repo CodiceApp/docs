@@ -1,6 +1,6 @@
 # Calendar
 
-Calendar is an alernative view of your notes.
+Calendar is an alternative view of your notes.
 
 ### Month view
 ![Calendar](assets/images/calendar.png)

@@ -14,7 +14,7 @@ Each plugin has its unique ID based on the name of directory it's located in. Ho
 your plugin folder must live directly in `/plugins` - more levels of nesting are not
 allowed.
 
-This is why you should prefix your directory name with so called *vendor prefix* , let
+This is why you should prefix your directory name with so called *vendor prefix*, let
 it be your nickname, organisation name etc. You can choose whatever you like and treat
 that just like  top vendor namespace in case of PHP (e.g. Packagist) packages.
 
