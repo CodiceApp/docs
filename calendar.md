@@ -3,7 +3,7 @@
 Calendar is an alternative view of your notes.
 
 ### Month view
-![Calendar](assets/images/calendar.png)
+![Calendar](images/calendar.png)
 
 Month view is the default one when you click on a *Calendar* link in top navigation bar.
 Current day is marked red. When a date has an orange bar on the left, it means that
@@ -16,6 +16,6 @@ be orange.
 </div>
 
 ### Day view
-![Calendar day view](assets/images/calendar-day.png)
+![Calendar day view](images/calendar-day.png)
 
 Both notes created and expiring on given day are shown in this view.

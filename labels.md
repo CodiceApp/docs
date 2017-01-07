@@ -27,9 +27,9 @@ without leaving the page. Labels input provides autocompletion, but if you type 
 does not exist yet and press enter it will assign it anyway. Label will be created once the
 note is saved.
 
-![Adding new label](assets/images/adding-label.png)
+![Adding new label](images/adding-label.png)
 
-![Adding new label](assets/images/adding-label-2.png)
+![Adding new label](images/adding-label-2.png)
 
 The only difference to adding labels using dedicated page is the fact that default (grey)
 color will be assigned to it. You can of course change it later by editing that label.
