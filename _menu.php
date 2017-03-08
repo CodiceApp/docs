@@ -2,6 +2,7 @@
 
 return [
     ['header', 'Getting started'],
+    ['quickstart', 'Quickstart'],
     ['installation', 'Installation'],
     ['contributing', 'Contributing'],
 
