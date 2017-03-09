@@ -17,7 +17,8 @@ you to the home screen we are just describing.
 
 Fastest way to add a short note. Clicking on that area opens full form (you can hide it
 back using an arrow on the bottom). Type your note in, add labels or define deadline if
-necessary and save. You can even use <kbd>Ctrl</kbd>+<kbd>S</kbd> while being focused on the content input.
+necessary and save. When cursor is inside the content input (both in quick and regular
+note forms) you can alternatively use <kbd>Ctrl</kbd>+<kbd>S</kbd> to save.
 
 If you are in label view (showing all notes with given label), quickform will have this
 label preselected for your convenience.
