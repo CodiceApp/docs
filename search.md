@@ -26,7 +26,7 @@ syntax, from the table below, is used, search will turn into filtering mode.
     </tr>
     <tr>
         <td><code>date</code></td>
-        <td>Any of accepted by <code><a href="http://php.net/date_parse">date_parse()</a></code></td>
+        <td>Date in <code>DD.MM.YYYY</code> or <code>MM/DD/YYYY</code> format</td>
         <td>Filters notes by their creation dates</td>
         <td><code>date:11.01.2017</code>, <code>date:03/11/2017</code></td>
     </tr>
