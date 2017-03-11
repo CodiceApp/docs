@@ -10,6 +10,7 @@ return [
     ['basics', 'Basic concepts'],
     ['calendar', 'Calendar'],
     ['labels', 'Labels'],
+    ['search', 'Search'],
 
     ['header', 'Plugins'],
     ['plugin-introduction', 'Introduction'],
