@@ -22,5 +22,5 @@ return [
     ['header', 'Appendices'],
     ['actions-list', 'Actions index'],
     ['filters-list', 'Filters index'],
-    ['https://github.com/Sobak/Codice/releases', 'Changelog'],
+    ['https://github.com/getcodice/codice/releases', 'Changelog'],
 ];

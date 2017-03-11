@@ -19,4 +19,4 @@ That's all, Codice is now up and running.
 If you are, however, looking for all possible paths to get Codice installation,
 including setup for development, consult [next chapter](installation).
 
-[releases]: https://github.com/Sobak/Codice/releases
+[releases]: https://github.com/getcodice/codice/releases
