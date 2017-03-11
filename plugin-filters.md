@@ -46,6 +46,10 @@ filter. After all filters are called, final value is saved back to the `$note` v
 Let's take a look at possible usecase for filters - dead simple censorship purely for
 educational purposes.
 
+<div class="alert alert-info">
+This example is unrelated to the <em>Upcoming tasks</em> plugin we are creating.
+</div>
+
 *In your plugin:*
 ```php
 class Plugin extends PluginBase

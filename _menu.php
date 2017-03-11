@@ -13,8 +13,11 @@ return [
 
     ['header', 'Plugins'],
     ['plugin-introduction', 'Introduction'],
+    ['plugin-class', 'Plugin class'],
     ['plugin-actions', 'Actions'],
     ['plugin-filters', 'Filters'],
+    ['plugin-framework', 'Hooking into Laravel'],
+    ['plugin-other', 'Other APIs'],
 
     ['header', 'Appendices'],
     ['actions-list', 'Actions index'],

@@ -35,6 +35,10 @@ a parameters for all actions registered within this hook.
 Let's have a look at the simple action you could register for it. You would
 place this code somewhere in your plugin, probably `boot()` method of it.
 
+<div class="alert alert-info">
+This example is unrelated to the <em>Upcoming tasks</em> plugin we are creating.
+</div>
+
 *In your plugin:*
 ```php
 class Plugin extends PluginBase
@@ -59,12 +63,10 @@ required being: hook name, action name and actual callable to run. Detailed desc
 of each parameter is placed below.
 
 <div class="alert alert-info">
-<p>Not only plugins utilize Actions API. Some of the core features also use it - for example,
-adding welcome note (which you can see in <a href="basics" class="alert-link">Basic concepts</a>
-chapter) is nothing more than action registered for <code>user.create</code> hook.</p>
-
-<p>Don't be afraid to unregister it using a plugin - either removing functionallity completely
-or hooking own implementation instead.</p>
+Not only plugins utilize Actions API. Some of the core features also use it - for example,
+adding welcome note is nothing more than action registered for <code>user.create</code> hook.
+Don't be afraid to unregister it inside a plugin - either disabling functionallity completely
+or hooking own implementation instead.
 </div>
 
 ### Public API reference
