@@ -43,7 +43,7 @@ Let's look how such file might look for our plugin. Place this contents in
   "description": "Provides additional page with tasks for upcoming days",
   "author": "You",
   "homepage": "http://codice.eu/docs",
-  "version": "1.0",
+  "version": "1.0.0",
   "require": {
     "codice": "0.5.*"
   }
