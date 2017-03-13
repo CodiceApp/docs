@@ -17,6 +17,6 @@ is to download **prebuilt package** for your release of choice.
 That's all, Codice is now up and running.
 
 If you are, however, looking for all possible paths to get Codice installation,
-including setup for development, consult [next chapter](installation).
+including setup for development, consult [next chapter](/docs/installation).
 
 [releases]: https://github.com/getcodice/codice/releases
