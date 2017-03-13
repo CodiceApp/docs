@@ -54,6 +54,7 @@ correctly, you should be able to install the plugin from plugin manager (availab
 from user menu). For the convenience you can find the complete plugin code in its
 [GitHub repository][docs-upcoming].
 
+![Our plugin in action](images/plugin-upcoming.png)
 
 [fontawesome]: http://fontawesome.io/icons/
 [docs-upcoming]: https://github.com/getcodice/plugin-docs-upcoming
