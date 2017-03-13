@@ -69,7 +69,7 @@ middleware in the constructor (it can be done in route definition, if you want).
 The most important part is the Eloquent query. We fetch notes using custom Codice's
 `mine()` scope, which only fetch items for currently logged in user. Then we join
 labels table, require expiration time to be greater than now, status to be *undone*
-and sort by results ascending.
+and sort results.
 
 Check out core models inside `/app` and you should use to it very quickly.
 
