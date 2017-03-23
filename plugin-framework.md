@@ -9,12 +9,13 @@ even database migrations.
 ### Theory: namespaces
 Apart from PHP namespace convention mentioned in context of defining main plugin
 class (`CodicePlugin\{StudlyIdentifier}`), Laravel also has it's own kind of
-namespaces for framework-specific assets, like views of language files. Their
-purpose is exactly the same – to ensure no collisions between application and
+namespaces for framework-specific assets, like views or language files. Their
+purpose is exactly the same – to prevent collisions between application's and
 third party code (such as plugins).
 
 Laravel namespace for your plugin will be its raw identifier and the separator is
-`::`. Look at the route definitions below to see it in action.
+`::`. For example, note how views and language lines are referenced in code samples
+below.
 
 ### Routes
 If you want your plugin to define any routes, create `routes.php` in its directory.
@@ -121,13 +122,13 @@ return [
 
 ### Models
 Even though our sample plugin does not provide any models, adding them is pretty
-straightforward. Knowing that PSR-4 autoloading is supported within plugin files
-as well, you only need to create a model class somewhere inside the plugin directory
+straightforward. Knowing that plugin files are PSR-4 autoloaded,
+you only need to create a model class somewhere inside the plugin directory
 and then `use` it. As in the Laravel itself, there is no specific directory for models,
 althought you can create one — just remember to reflect that ins the namespace.
 
 ### Migrations
-Plugins can provide database migrations as well. There is no helper for creating them
+Plugins can provide database migrations as well. There is no CLI helper for creating them
 yet, so remember that their order is determined by the filename. You probably just want
 to prefix them with current datetime, as Laravel does.
 
