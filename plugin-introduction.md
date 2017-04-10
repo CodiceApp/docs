@@ -13,21 +13,15 @@ boils down to the regular Laravel coding.
 </div>
 
 ### Plugin identifier
-Each plugin has its unique ID based on the name of directory it's located in. However,
-your plugin folder must live directly in `/plugins` - more levels of nesting are not
-allowed.
-
-This is why you should prefix your directory name with so called *vendor prefix*, let
-it be your nickname, organisation name etc. You can choose whatever you like and treat
-that just like top vendor namespace in case of PHP (e.g. Composer) packages.
+Each plugin has its unique ID based on the name of its subdirectory in `/plugins`.
+Our training plugin will be named `docs-upcoming`, filesystem path of it will be
+`/plugins/docs-upcoming` then. Having more than one levels of nesting (something
+like `/plugins/my/plugin`) is not supported.
 
 <div class="alert alert-danger">
-<code>codice-</code> prefix is restricted for plugins released by Codice team itself.
-Please stay away from using it.
+All identifiers starting with <code>codice-</code> are restricted for plugins
+released by Codice team itself. Please stay away from using it.
 </div>
-
-Our training plugin will be named `docs-upcoming` (where `docs` serves as vendor prefix),
-filesystem path of it will be `/plugins/docs-upcoming` then.
 
 ### `plugin.json`
 First mandatory element each plugin must provide is `plugin.json` file in its directory.
